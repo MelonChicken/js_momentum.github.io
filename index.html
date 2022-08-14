@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Potato</title>
+</head>
+
+<body>
+    <div class="left-container">
+        <div id="clock" class="clock"></div>
+
+
+        <form id="login-form" class="hidden">
+            <input type="text" placeholder="Enter your name" />
+        </form>
+        <div id="greetings" class="hidden"></div>
+
+        <div id="weather" class="weather">
+            <span> </span>
+            <span> </span>
+
+        </div>
+
+    </div>
+    <div id="banner" class="banner">
+        <marquee behavior="scroll" scrollamount="10">"To see the world, things dangerous to come to, to see behind
+            walls, draw closer, to find each other, and to feel. That is the purpose of life."</marquee>
+    </div>
+    <div class="right-container">
+        <div>
+            <form id="todo-form">
+                <input type="text" placeholder="What's your goal?" />
+            </form>
+            <ul id="todo-list" style="list-style:none"></ul>
+        </div>
+
+
+    </div>
+
+    <script src="js/04_geolocation.js"></script>
+    <script src="js/01_login.js"></script>
+    <script src="js/02_clock.js"></script>
+    <script src="js/03_toDoLists.js"></script>
+    <script src="js/04_geolocation.js"></script>
+    <script src="js/05.background.js"></script>
+</body>
+
+</html>
